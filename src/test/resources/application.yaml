@@ -1,0 +1,16 @@
+kieserverMap:
+  server1:
+      host: http://kieserver1.example.com:8080/kie-server/services/rest/server
+      username: krisv
+      password: krisv
+  server2:
+      host: http://kieserver2.example.com:8080/kie-server/services/rest/server
+      username: admin
+      password: admin123
+kieservers:
+  - host: http://kieserver1.example.com:8080/kie-server/services/rest/server
+    username: krisv
+    password: krisv
+  - host: http://kieserver2.example.com:8080/kie-server/services/rest/server
+    username: admin
+    password: admin123
